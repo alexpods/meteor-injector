@@ -3,7 +3,7 @@ meteor-injector
 
 Integration of InjectorJS library (https://github.com/alexpods/InjectorJS) into meteor.
 
-InjectorJS version: 0.2.0
+InjectorJS version: 0.2.1
 
 Following example will give you a common idea about the library. For more information about InjectorJS look at its github repository: https://github.com/alexpods/InjectorJS
 
@@ -12,6 +12,8 @@ console.log(injector.has('name')); // false
 
 injector.set('name', 'Bob');
 injector.set('PI', 3.14).set('currentTime', new Date());
+
+console.log(injector.has('name')); // true
 
 console.log(injector.has('name')); // true
 console.log(injector.get('name')); // 'Bob'
