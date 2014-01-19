@@ -3,9 +3,9 @@
     "description": "Integration of InjectorJS library (https://github.com/alexpods/InjectorJS) into meteor",
     "homepage": "https://github.com/alexpods/meteor-injector",
     "author": "Aleksey Podskrebyshev (https://github.com/alexpods)",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "git": "https://github.com/alexpods/meteor-injector.git",
     "packages": {
-        "clazz": "0.1.1"
+        "clazz": "0.1.2"
     }
 }
